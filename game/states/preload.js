@@ -14,6 +14,7 @@ Preload.prototype = {
         this.load.setPreloadSprite(this.asset);
         this.load.image('logo', 'assets/logo.png');
         this.load.image('bell', 'assets/bell.png');
+        this.load.image('rabbit', 'assets/rabbit.png');
     },
     create: function () {
         this.asset.cropEnabled = false;
