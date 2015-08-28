@@ -1,0 +1,630 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"newTemplate",
+				"newTemplateSection"
+			],
+			[
+				"profile",
+				"profileService"
+			],
+			[
+				"favro",
+				"favouritesModel"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"geoloca",
+				"geolocationService"
+			],
+			[
+				"geo",
+				"geolocationService"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"country",
+				"countryList"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"preferne",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefer",
+				"Preferences: Settings - Default"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indenta",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pref",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Chris/Projects/personal/winterbells"
+	],
+	"file_history":
+	[
+		"/Users/Chris/Downloads/aircrack-ng-1.2-rc2/src/aircrack-ng.c",
+		"/Users/Chris/Downloads/aircrack-ng-1.2-rc2/src/crypto.h",
+		"/Users/Chris/Projects/personal/snake/app/styles/main.scss",
+		"/Users/Chris/Projects/personal/snake/test/spec/screen.coffee",
+		"/Users/Chris/Projects/personal/snake/test/spec/keyboard.coffee",
+		"/Users/Chris/Projects/personal/snake/test/spec/grid.coffee",
+		"/Users/Chris/Projects/personal/snake/app/scripts/grid.coffee",
+		"/Users/Chris/Projects/personal/snake/test/spec/game.coffee",
+		"/Users/Chris/Projects/personal/snake/app/scripts/run.coffee",
+		"/Users/Chris/Projects/personal/snake/app/index.html",
+		"/Users/Chris/Projects/personal/snake/app/scripts/constants.coffee",
+		"/Users/Chris/Downloads/Dylan_Handover/Git.md",
+		"/Users/Chris/Projects/work/project-panther/src/data/rtd-packages/S0339186.json",
+		"/Users/Chris/Projects/work/project-panther/Gruntfile.js",
+		"/Users/Chris/Projects/work/hsbc/app/run.js",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/launchToolDialog.js",
+		"/Users/Chris/Projects/work/hsbc/hsbc.sublime-workspace",
+		"/Users/Chris/Projects/work/hsbc/app/common/constants.js",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/existingTemplate.js",
+		"/Users/Chris/Projects/work/hsbc/app/services/baseService.js",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/templates/existingTemplate.html",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/templates/newTemplate.html",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/newTemplate.js",
+		"/Users/Chris/Projects/work/hsbc/grunt/watch.js",
+		"/Users/Chris/Projects/work/hsbc/grunt/aliases.js",
+		"/Users/Chris/Projects/work/hsbc/app/nls/psLbl.js",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/launchTool/templates/launchToolDialog.html",
+		"/Users/Chris/Projects/work/hsbc/app/widgets/dialog/customDialog.js",
+		"/Users/Chris/Projects/work/hsbc/app/main.js",
+		"/Users/Chris/Projects/work/hsbc/app/helpers/pageSlider.js",
+		"/Users/Chris/Projects/work/hsbc/app/controllers/appController.js",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/Users/Chris/Projects/work/hsbc/.jshintrc",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/jshintify/Default.sublime-keymap",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/jshintify/Jshintify.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/User/Jshintify.sublime-settings",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/Users/Chris/Projects/personal/room-number-problem/count_reference.coffee",
+		"/Users/Chris/Projects/personal/room-number-problem/count_optimized.coffee",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Chris/Projects/work/hsbc/stubs/app/services/mockPaymentsService.js",
+		"/Users/Chris/Projects/work/hsbc/server.js",
+		"/System/Library/Frameworks/QuickTime.framework/Versions/A/Headers/ImageCompression.h",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/controllers/search.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/directives/loading.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/api.coffee",
+		"/Users/Chris/Projects/personal/awsearch/Gruntfile.js",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/models/search.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/profile.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/search.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/views/search.html",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/app.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/trusted.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/tooltip_ratings.html",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/search_profile_table.html",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/search_profile_default.html",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/config.coffee",
+		"/Users/Chris/Projects/personal/awsearch/test/karma.conf.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/longdate.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/phonenumber.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/decodehtml.coffee",
+		"/Users/Chris/Projects/personal/awsearch/test/spec/services/profile.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/numberlocale.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/replacetablinks.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/geolocation.coffee",
+		"/Users/Chris/Projects/personal/awsearch/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/unsafe.coffee",
+		"/Users/Chris/Projects/personal/awsearch/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/search_fields.html",
+		"/Users/Chris/Projects/personal/awsearch/app/views/main.html",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/top_nav_fixed.html",
+		"/Users/Chris/Projects/personal/awsearch/bower_components/jasny-bootstrap/js/offcanvas.js",
+		"/Users/Chris/Projects/personal/awsearch/bower.json",
+		"/Users/Chris/Projects/personal/awsearch/app/index.html",
+		"/Users/Chris/Projects/personal/awsearch/dist/index.html",
+		"/Users/Chris/Projects/personal/awsearch/README.md",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/search_filters.html",
+		"/Users/Chris/Projects/personal/awsearch/test/spec/services/geolocation.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/loadinginterceptor.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/views/directives/loading.html",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/defaults.coffee",
+		"/Users/Chris/Projects/personal/awsearch/test/spec/services/defaults.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/searchdefaults.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/api_cfg.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/top_nav.html",
+		"/Users/Chris/Projects/personal/awsearch/app/styles/main.scss",
+		"/Users/Chris/Projects/personal/awsearch/app/views/profile.html",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/relativedate.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/relativetime.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/filters/genderfilter.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/services/searchmodel.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/scripts/controllers/profile.coffee",
+		"/Users/Chris/Projects/personal/awsearch/app/views/partials/profile_search.html",
+		"/Users/Chris/Projects/work/tr2/src/js/controllers/diagnosis.js",
+		"/Users/Chris/Projects/work/tr2/src/js/controllers/supplierfault.js",
+		"/Users/Chris/Projects/work/tr2/src/js/routes/router.js",
+		"/Users/Chris/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Chris/Projects/personal/awsearch/test/spec/controllers/search.coffee",
+		"/Users/Chris/Projects/personal/awsearch/.editorconfig",
+		"/Users/Chris/Projects/personal/awsearch/.gitignore",
+		"/Users/Chris/Projects/work/tr2/src/templates/partials/node_types/statement.html",
+		"/Users/Chris/Projects/work/tr2/dist/templates/views/diagnosis.html",
+		"/Users/Chris/Projects/work/tr2/src/js/models/account.js",
+		"/Users/Chris/Projects/work/tr2/src/templates/partials/change_line.html",
+		"/Users/Chris/Projects/work/tr2/src/js/services/helpers.js",
+		"/Users/Chris/Projects/work/tr2/src/js/models/supplierfault.js",
+		"/Users/Chris/Projects/work/tr2/src/templates/partials/node_types/selectQuestion.html",
+		"/Users/Chris/Projects/work/tr2/src/js/models/diagnosis.js",
+		"/Users/Chris/Projects/work/tr2/src/js/controllers/existingfault.js",
+		"/Users/Chris/Projects/work/tr2/src/js/controllers/account.js",
+		"/Users/Chris/Projects/work/tr2/src/config/config.json",
+		"/Users/Chris/Projects/work/tr2/src/js/services/data.js",
+		"/Users/Chris/Projects/work/tr2/src/js/filters/paths.js",
+		"/Users/Chris/Projects/work/tr2/src/js/filters/numbers.js",
+		"/Users/Chris/Projects/work/tr2/grunt/copy.js",
+		"/Users/Chris/Projects/work/tr2/grunt/aliases.json",
+		"/Users/Chris/Projects/work/tr2/README.md",
+		"/Users/Chris/Projects/work/tr2/src/index.html",
+		"/Users/Chris/Downloads/vs_dev_patch",
+		"/Users/Chris/Projects/personal/room-number-problem/README.md",
+		"/Users/Chris/Projects/personal/room-number-problem/Gruntfile.js",
+		"/Users/Chris/Projects/personal/room-number-problem/test/spec/count_optimized.coffee",
+		"/Users/Chris/Projects/personal/room-number-problem/test/spec/count_reference.coffee",
+		"/Users/Chris/Projects/personal/room-number-problem/.tmp/count_reference.js",
+		"/Users/Chris/Projects/personal/room-number-problem/package.json",
+		"/Users/Chris/Projects/personal/room-number-problem/test/testrunner.html",
+		"/Users/Chris/Projects/personal/room-number-problem/test/tests.coffee"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"*",
+			"*.js",
+			"*",
+			"*.html",
+			"*.coffee"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dpr",
+			"canvasWidth",
+			"canvasHeight",
+			"window.devicePixelRatio",
+			"canvas.",
+			"game",
+			"ownProperty",
+			"down",
+			"right",
+			"up",
+			"left",
+			"dirs.",
+			"state",
+			"@CONST",
+			"=",
+			"@",
+			"grey_legal",
+			"we are changing our prices",
+			"Select a user...",
+			"Select from the list below to be able to proceed to instruction",
+			"psLbl",
+			"*",
+			"psLbl_DEBIT_ACCOUNT_CURRENCY_LABEL",
+			"psLbl_SELECT_PRODUCT_TYPES_LABEL",
+			"psLbl_SELECT_EXISTING_PAYMENT_LABEL",
+			"psLbl_SELECT_EXISTING_TEMPLATE_LABEL",
+			"psLbl_SELECT_PAYMENT_TYPES_LABEL",
+			"psLbl_SELECT_USER_TYPES_LABEL",
+			"launch tool",
+			"getItemLabel(",
+			"getItemLabel",
+			"getInfoLabel",
+			"idProperty",
+			"selectedTemplate",
+			"set",
+			"labelType",
+			"selectedTemplateType",
+			"templateTypesListNode",
+			"existingTemplates",
+			"setTemplatesList",
+			"newTemplateTypeList",
+			"newTemplateSection",
+			"General",
+			"productTypes",
+			"setTemplatesList",
+			"getTemplatesListSuccess",
+			"newTemplateTypeList",
+			"newTemplateTypesList",
+			"NEW_TEMPLATE_TYPE_TAB_NAME",
+			"NEW_TEMPLATE_TAB_NAME",
+			"newTemplateTypeList",
+			"newTemplateTypesList",
+			"getUserTemplatesList",
+			"getTemplatesListSuccess",
+			"EXISTING_TEMPLATE_TAB_NAME",
+			"psLbl_SELECT_EXISTING_TEMPLATE_LABEL",
+			"getTemplate(",
+			"newTemplateSection",
+			"templateListNode",
+			"newTemplates ",
+			"newTemplates",
+			"selectedTemplate",
+			"ExistingTemplateS",
+			"existingTemplates",
+			"existingTemplate",
+			"ExistingTemplate",
+			"existingTemplateSection",
+			"updateLaunchUrlBase",
+			"loadAdditionalData",
+			"resize",
+			"dialogContainer",
+			"psLbl_SELECT_USER_TYPES_LABEL",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"                                    ",
+			".sub-header",
+			"<li",
+			"profile_tabs",
+			"h2",
+			" class=\"active\"",
+			"store",
+			"favourites",
+			"   =",
+			"search",
+			"profile.",
+			"model.",
+			"store",
+			"chat",
+			"td>",
+			"th>",
+			"th",
+			"tr>",
+			"tr",
+			"li ng-",
+			"small",
+			"td",
+			"}}",
+			"<tr><td>",
+			"</td> ",
+			"strong",
+			"li",
+			"squashed",
+			"condensed",
+			"borderless",
+			"<td>",
+			"top",
+			"Ratings",
+			"<li>",
+			" class=\"text-muted\"",
+			"<li>",
+			"Region",
+			"County",
+			"Town",
+			"left",
+			"h4",
+			" : ",
+			"Height",
+			"EyeColour",
+			"Ethnicity",
+			"DressSize",
+			"h2",
+			"Hours",
+			"outcall.Hour",
+			"incall.Hours"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "winterbells.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"snake",
+				"app/scripts/snake.coffee"
+			],
+			[
+				"0035",
+				"src/data/rtd-packages/S0340035.json"
+			],
+			[
+				"9052",
+				"src/data/rtd-packages/S0339052.json"
+			],
+			[
+				"9858",
+				"src/data/rtd-packages/S0339858.json"
+			],
+			[
+				"9827",
+				"src/data/rtd-packages/S0339827.json"
+			],
+			[
+				"9186",
+				"src/data/rtd-packages/S0339186.json"
+			],
+			[
+				"mainjs",
+				"app/main.js"
+			],
+			[
+				"launchtool",
+				"app/widgets/launchTool/launchToolDialog.js"
+			],
+			[
+				"pslbl",
+				"app/nls/psLbl.js"
+			],
+			[
+				"newtemplate",
+				"app/widgets/launchTool/newTemplate.js"
+			],
+			[
+				"constants",
+				"app/common/constants.js"
+			],
+			[
+				"alia",
+				"grunt/aliases.js"
+			],
+			[
+				"constant",
+				"app/common/constants.js"
+			],
+			[
+				"baseservie",
+				"app/services/baseService.js"
+			],
+			[
+				"launch",
+				"app/widgets/launchTool/launchToolDialog.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"packa",
+				"dijit/package.json"
+			],
+			[
+				"readm",
+				"dijit/README.md"
+			],
+			[
+				"config",
+				"app/scripts/services/config.coffee"
+			],
+			[
+				"index.html",
+				"app/index.html"
+			],
+			[
+				"searchhtml",
+				"app/views/search.html"
+			],
+			[
+				"diagnosis",
+				"src/templates/views/diagnosis.html"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"gruntfi",
+				"Gruntfile.js"
+			],
+			[
+				"gitign",
+				".gitignore"
+			],
+			[
+				"bind",
+				"test/polyfill_bind.js"
+			],
+			[
+				"grnt",
+				"Gruntfile.js"
+			],
+			[
+				"maincoffe",
+				"app/scripts/main.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/personal/snake/snake.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
