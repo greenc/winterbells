@@ -13,7 +13,7 @@ Preload.prototype = {
         this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
         this.load.setPreloadSprite(this.asset);
         this.load.image('logo', 'assets/logo.png');
-
+        this.load.image('bell', 'assets/bell.png');
     },
     create: function () {
         this.asset.cropEnabled = false;

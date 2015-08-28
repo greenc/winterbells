@@ -10,7 +10,7 @@
   "latedef": true,
   "newcap": true,
   "noarg": true,
-  "quotmark": "single",
+  "quotmark": true,
   "regexp": true,
   "undef": true,
   "unused": true,
@@ -18,8 +18,9 @@
   "trailing": true,
   "smarttabs": true,
   "white": true,
-  "browser": true",
+  "browser": true,
   "globals": {
+    "module": true,
     "Phaser": true
   }
 }

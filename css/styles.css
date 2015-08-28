@@ -1,16 +1,16 @@
 body {
-  background-color: #000;
+    background-color: #000;
 }
 
 #winterbells {
-  border: 1px solid #073954;
-  width: 750px;
-  height: 500px;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  cursor: pointer;
+    border: 1px solid #073954;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
 }
