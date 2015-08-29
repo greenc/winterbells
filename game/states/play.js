@@ -1,13 +1,13 @@
 'use strict';
 
-var Rabbit = require('../prefabs/rabbit');
-var Bell = require('../prefabs/bell');
+var Rabbit, Bell, max, emitter, updateInterval, i;
 
-var max = 0;
-var emitter;
-var updateInterval = 4 * 60;
-var i = 0;
+Rabbit = require('../prefabs/rabbit');
+Bell = require('../prefabs/bell');
 
+max = 0;
+updateInterval = 4 * 60;
+i = 0;
 
 function Play() {}
 
@@ -36,8 +36,9 @@ Play.prototype = {
     },
 
     generateBell: function() {
-        var posX = this.game.rnd.integerInRange(50, 700);
-        var bell = new Bell(this.game, posX, 100);
+        var posX, bell;
+        posX = this.game.rnd.integerInRange(50, 700);
+        bell = new Bell(this.game, posX, 100);
     },
 
     createSnow: function() {
@@ -64,8 +65,20 @@ Play.prototype = {
     },
 
     changeWindDirection: function() {
-        var multi = Math.floor((max + 200) / 4);
-        var frag = (Math.floor(Math.random() * 100) - multi);
+        var multi, frag, setParticleXSpeed, setXSpeed;
+
+        multi = Math.floor((max + 200) / 4);
+        frag = (Math.floor(Math.random() * 100) - multi);
+
+        setParticleXSpeed = function(particle, max) {
+            particle.body.velocity.x = max - Math.floor(Math.random() * 30);
+        };
+
+        setXSpeed = function(em, max) {
+            em.setXSpeed(max - 20, max);
+            em.forEachAlive(setParticleXSpeed, this, max);
+        };
+
         max = max + frag;
 
         if(max > 200) {
@@ -74,16 +87,7 @@ Play.prototype = {
             max = -150;
         }
 
-        this.setXSpeed(emitter, max);
-    },
-
-    setXSpeed: function(em, max) {
-        em.setXSpeed(max - 20, max);
-        em.forEachAlive(this.setParticleXSpeed, this, max);
-    },
-
-    setParticleXSpeed: function(particle, max) {
-        particle.body.velocity.x = max - Math.floor(Math.random() * 30);
+        setXSpeed(emitter, max);
     },
 
     clickListener: function() {

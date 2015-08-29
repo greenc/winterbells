@@ -7,11 +7,14 @@ Menu.prototype = {
 
     },
     create: function () {
-        var style = {
+        var style, str;
+
+        style = {
             font: '52px Georgia serif',
             fill: '#ffffff',
             align: 'center'
         };
+
         this.sprite = this.game.add.sprite(this.game.world.centerX, 80, 'logo');
         this.sprite.anchor.setTo(0.5, 0.26);
         this.sprite.angle = -5;
@@ -29,7 +32,8 @@ Menu.prototype = {
         });
         this.instructionsTitle.anchor.setTo(0.5, 0.5);
 
-        var str = "~ Use your mouse to move ~\n~ Click mouse button to jump ~\n~ Touch the bells to score ~";
+        str = "~ Use your mouse to move ~\n~ Click mouse button to jump ~\n~ Touch the bells to score ~";
+
         this.instructionsText = this.game.add.text(this.game.world.centerX, 380, str, {
             font: '16px Georgia serif',
             fill: '#ffffff',

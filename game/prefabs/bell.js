@@ -1,6 +1,8 @@
 'use strict';
 
-var Bell = function(game, x, y, frame) {
+var Bell;
+
+Bell = function(game, x, y, frame) {
     Phaser.Sprite.call(this, game, x, y, 'bell', frame);
     this.anchor.setTo(0.5, 0.26);
     this.game.physics.arcade.enableBody(this);
