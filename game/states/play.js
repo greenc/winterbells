@@ -16,17 +16,7 @@ Play.prototype = {
         this.game.physics.startSystem(Phaser.Physics.ARCADE);
 
         // Create snow
-        emitter = this.game.add.emitter(this.game.world.centerX, -32, 600);
-        emitter.makeParticles('snowflakes', [0, 1, 2, 3, 4, 5]);
-        emitter.maxParticleScale = 0.5;
-        emitter.minParticleScale = 0.2;
-        emitter.setYSpeed(50, 100);
-        emitter.gravity = 0;
-        emitter.width = this.game.world.width * 1.5;
-        emitter.minRotation = 0;
-        emitter.maxRotation = 40;
-        this.changeWindDirection();
-        emitter.start(false, 12000, 100);
+        this.createSnow();
 
         // Create rabbit
         this.rabbit = new Rabbit(this.game, this.game.width / 2, this.game.height);
@@ -42,18 +32,35 @@ Play.prototype = {
     },
 
     update: function() {
-        // Update snow
+        this.updateSnow();
+    },
+
+    generateBell: function() {
+        var posX = this.game.rnd.integerInRange(50, 700);
+        var bell = new Bell(this.game, posX, 100);
+    },
+
+    createSnow: function() {
+        emitter = this.game.add.emitter(this.game.world.centerX, -32, 600);
+        emitter.makeParticles('snowflakes', [0, 1, 2, 3, 4, 5]);
+        emitter.maxParticleScale = 0.5;
+        emitter.minParticleScale = 0.2;
+        emitter.setYSpeed(50, 100);
+        emitter.gravity = 0;
+        emitter.width = this.game.world.width * 1.5;
+        emitter.minRotation = 0;
+        emitter.maxRotation = 40;
+        this.changeWindDirection();
+        emitter.start(false, 12000, 100);
+    },
+
+    updateSnow: function() {
         i++;
         if(i === updateInterval) {
             this.changeWindDirection();
             updateInterval = Math.floor(Math.random() * 20) * 60; // 0 - 20sec @ 60fps
             i = 0;
         }
-    },
-
-    generateBell: function() {
-        var posX = this.game.rnd.integerInRange(50, 700);
-        var bell = new Bell(this.game, posX, 100);
     },
 
     changeWindDirection: function() {
